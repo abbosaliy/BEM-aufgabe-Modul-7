@@ -1,6 +1,5 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
-´ body {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,14 +12,14 @@
   padding: 3rem;
   gap: 2rem;
 }
-.product-logo {
+.product__logo {
   font-size: 3.5rem;
   font-weight: 550;
   font-family: "Libre Baskerville", serif;
   border-bottom: 2.5px solid #8b4513;
   color: #505050;
 }
-.product-section {
+.product__section {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -34,23 +33,23 @@
   border-radius: 10px 10px;
   box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(28, 5, 77, 0.1);
 }
-.card-image {
+.card__image {
   text-align: center;
   border-radius: 0px 10px 0px 0px;
   background: radial-gradient(138.81% 138.29% at 1.22% 1.08%, #fbfbfb 0%, #d3d3d3 100%);
 }
-.card-info {
+.card__info {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 0 0 1rem 1rem;
 }
-.card-title {
+.card__title {
   font-family: "Libre Baskerville", serif;
   font-size: 19px;
   font-weight: bolder;
 }
-.card-description {
+.card__description {
   color: var(--767676, #767676);
   font-family: sans-serif;
   font-size: 16px;
@@ -58,15 +57,15 @@
   font-weight: 500;
   line-height: 130%;
 }
-.card-price__info {
+.card__price-info {
   display: flex;
   gap: 1rem;
 }
-.card-sale {
+.card__sale {
   font-family: "Libre Baskerville", serif;
   font-size: 16px;
 }
-.card-price {
+.card__price {
   color: red;
   font-family: "Libre Baskerville", serif;
   font-size: 14px;

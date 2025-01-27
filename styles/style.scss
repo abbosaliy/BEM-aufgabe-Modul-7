@@ -13,14 +13,14 @@ body {
   padding: 3rem;
   gap: 2rem;
 
-  &-logo {
+  &__logo {
     font-size: 3.5rem;
     font-weight: 550;
     font-family: $font-style;
     border-bottom: 2.5px solid #8b4513;
     color: #505050;
   }
-  &-section {
+  &__section {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -36,7 +36,7 @@ body {
   box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
     0px 2px 4px 0px rgba(28, 5, 77, 0.1);
 
-  &-image {
+  &__image {
     text-align: center;
     border-radius: 0px 10px 0px 0px;
     background: radial-gradient(
@@ -45,20 +45,20 @@ body {
       #d3d3d3 100%
     );
   }
-  &-info {
+  &__info {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 0 0 1rem 1rem;
   }
 
-  &-title {
+  &__title {
     font-family: $font-style;
     font-size: 19px;
     font-weight: bolder;
   }
 
-  &-description {
+  &__description {
     color: var(--767676, #767676);
     font-family: sans-serif;
     font-size: 16px;
@@ -66,15 +66,15 @@ body {
     font-weight: 500;
     line-height: 130%;
   }
-  &-price__info {
+  &__price-info {
     display: flex;
     gap: 1rem;
   }
-  &-sale {
+  &__sale {
     font-family: $font-style;
     font-size: 16px;
   }
-  &-price {
+  &__price {
     color: red;
     font-family: $font-style;
     font-size: 14px;
